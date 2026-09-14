@@ -27,7 +27,7 @@ def main():
         if not question:
             continue
 
-        print("\n[...] Searching..\n")
+        print("\n[...] Search..\n")
         answer = chain.invoke(question)
         print(f"[ANSWER]\n{answer}")
 
